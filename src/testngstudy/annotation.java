@@ -9,9 +9,10 @@ import org.testng.annotations.AfterClass;
 
 public class annotation {
   @Test
+  
   public void testcase() {
 	  
-	  Reporter.log("validate id and password",true);
+	  Reporter.log("   validate id and password",true);
   }
   @BeforeMethod
   public void beforeMethod() {
